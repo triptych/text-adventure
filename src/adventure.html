@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adventure - Text-Based Adventure Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header-component></header-component>
+
+  <main>
+    <h1>Adventure</h1>
+    <button id="go-adventure">Go on an Adventure</button>
+
+    <div id="adventure-result">
+      <h2 id="adventure-title"></h2>
+      <p id="adventure-description"></p>
+      <p id="monster-encounter"></p>
+      <p id="item-find"></p>
+      <p id="gold-reward"></p>
+      <div id="monster-actions" style="display: none;">
+        <button id="fight-monster">Fight Monster</button>
+        <button id="run-away">Run Away</button>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Text-Based Adventure Game. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+  <script src="adventure.js"></script>
+</body>
+</html>

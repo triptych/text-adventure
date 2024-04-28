@@ -1,0 +1,162 @@
+[
+    {
+      "id": 1,
+      "name": "Steel Sword",
+      "type": "Weapon",
+      "description": "A sturdy steel sword for close combat.",
+      "price": 500,
+      "attack": 20
+    },
+    {
+      "id": 2,
+      "name": "Wooden Shield",
+      "type": "Shield",
+      "description": "A basic wooden shield for defense.",
+      "price": 200,
+      "defense": 10
+    },
+    {
+      "id": 3,
+      "name": "Health Potion",
+      "type": "Potion",
+      "description": "Restores 50 HP when consumed.",
+      "price": 100,
+      "effect": "Restores 50 HP"
+    },
+    {
+      "id": 4,
+      "name": "Mana Potion",
+      "type": "Potion",
+      "description": "Restores 30 MP when consumed.",
+      "price": 80,
+      "effect": "Restores 30 MP"
+    },
+    {
+      "id": 5,
+      "name": "Roasted Chicken",
+      "type": "Food",
+      "description": "A delicious roasted chicken that restores 20 HP.",
+      "price": 50,
+      "effect": "Restores 20 HP"
+    },
+    {
+      "id": 6,
+      "name": "Bread",
+      "type": "Food",
+      "description": "A loaf of bread that restores 10 HP.",
+      "price": 20,
+      "effect": "Restores 10 HP"
+    },
+    {
+      "id": 7,
+      "name": "Iron Helmet",
+      "type": "Armor",
+      "description": "An iron helmet that provides head protection.",
+      "price": 300,
+      "defense": 15
+    },
+    {
+      "id": 8,
+      "name": "Leather Armor",
+      "type": "Armor",
+      "description": "A set of leather armor for basic protection.",
+      "price": 400,
+      "defense": 20
+    },
+    {
+      "id": 9,
+      "name": "Fire Scroll",
+      "type": "Scroll",
+      "description": "A scroll that casts a fireball spell.",
+      "price": 150,
+      "effect": "Casts Fireball"
+    },
+    {
+      "id": 10,
+      "name": "Ice Scroll",
+      "type": "Scroll",
+      "description": "A scroll that casts an ice bolt spell.",
+      "price": 150,
+      "effect": "Casts Ice Bolt"
+    },
+    {
+      "id": 11,
+      "name": "Longsword",
+      "type": "Weapon",
+      "description": "A versatile longsword for skilled warriors.",
+      "price": 800,
+      "attack": 30
+    },
+    {
+      "id": 12,
+      "name": "Silver Dagger",
+      "type": "Weapon",
+      "description": "A silver dagger effective against undead.",
+      "price": 600,
+      "attack": 25
+    },
+    {
+      "id": 13,
+      "name": "Healing Herb",
+      "type": "Consumable",
+      "description": "A medicinal herb that restores 30 HP.",
+      "price": 60,
+      "effect": "Restores 30 HP"
+    },
+    {
+      "id": 14,
+      "name": "Antidote",
+      "type": "Consumable",
+      "description": "Cures poison and restores 20 HP.",
+      "price": 80,
+      "effect": "Cures Poison, Restores 20 HP"
+    },
+    {
+      "id": 15,
+      "name": "Mithril Armor",
+      "type": "Armor",
+      "description": "Lightweight and durable mithril armor.",
+      "price": 1500,
+      "defense": 40
+    },
+    {
+      "id": 16,
+      "name": "Enchanted Bow",
+      "type": "Weapon",
+      "description": "An enchanted bow with increased accuracy.",
+      "price": 1000,
+      "attack": 35
+    },
+    {
+      "id": 17,
+      "name": "Mana Crystal",
+      "type": "Consumable",
+      "description": "A crystal that restores 50 MP.",
+      "price": 120,
+      "effect": "Restores 50 MP"
+    },
+    {
+      "id": 18,
+      "name": "Invisibility Potion",
+      "type": "Potion",
+      "description": "Grants invisibility for a short duration.",
+      "price": 500,
+      "effect": "Grants Invisibility"
+    },
+    {
+      "id": 19,
+      "name": "Magic Scroll",
+      "type": "Scroll",
+      "description": "A scroll that casts a random spell.",
+      "price": 200,
+      "effect": "Casts Random Spell"
+    },
+    {
+      "id": 20,
+      "name": "Dragon Scale Shield",
+      "type": "Shield",
+      "description": "A powerful shield made from dragon scales.",
+      "price": 2000,
+      "defense": 50
+    }
+  ]

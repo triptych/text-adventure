@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position:sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+#store-container {
+  display: flex;
+}
+
+#store-items {
+  flex: 1;
+  padding: 20px;
+}
+
+#player-inventory-container {
+  flex: 1;
+  padding: 20px;
+}
+
+#player-inventory {
+  margin-top: 20px;
+}
+
+.item {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item h3 {
+  margin-top: 0;
+}
+
+.item p {
+  margin: 5px 0;
+}
+
+.buy-button,
+.sell-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.buy-button:hover,
+.sell-button:hover {
+  background-color: #45a049;
+}

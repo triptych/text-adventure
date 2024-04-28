@@ -1,0 +1,71 @@
+[
+    {
+      "id": 1,
+      "title": "The Abandoned Castle",
+      "description": "You stumble upon an abandoned castle. As you explore its eerie halls, you encounter challenges and rewards.",
+      "monster": {
+        "probability": 0.6,
+        "type": "Goblin",
+        "health": 50,
+        "attack": 10,
+        "defense": 5,
+        "xpReward": 100
+      },
+      "item": {
+        "probability": 0.3,
+        "type": "Sword",
+        "name": "Rusty Sword",
+        "attack": 15
+      },
+      "gold": {
+        "probability": 0.4,
+        "amount": 50
+      }
+    },
+    {
+      "id": 2,
+      "title": "The Enchanted Forest",
+      "description": "You venture into an enchanted forest filled with mystical creatures and hidden treasures.",
+      "monster": {
+        "probability": 0.5,
+        "type": "Orc",
+        "health": 80,
+        "attack": 15,
+        "defense": 8,
+        "xpReward": 150
+      },
+      "item": {
+        "probability": 0.2,
+        "type": "Shield",
+        "name": "Wooden Shield",
+        "defense": 10
+      },
+      "gold": {
+        "probability": 0.6,
+        "amount": 75
+      }
+    },
+    {
+      "id": 3,
+      "title": "The Misty Mountains",
+      "description": "You embark on a treacherous journey through the misty mountains, facing challenges at every turn.",
+      "monster": {
+        "probability": 0.7,
+        "type": "Troll",
+        "health": 120,
+        "attack": 20,
+        "defense": 12,
+        "xpReward": 200
+      },
+      "item": {
+        "probability": 0.1,
+        "type": "Potion",
+        "name": "Health Potion",
+        "effect": "Restores 50 health points"
+      },
+      "gold": {
+        "probability": 0.3,
+        "amount": 100
+      }
+    }
+  ]

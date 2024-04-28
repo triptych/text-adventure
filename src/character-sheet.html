@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Sheet - Text-Based Adventure Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header-component></header-component>
+
+  <main>
+    <h1>Character Sheet</h1>
+    <div id="character-info">
+      <p><strong>Name:</strong> <span id="name"></span></p>
+      <p><strong>Gender:</strong> <span id="gender"></span></p>
+      <p><strong>Class:</strong> <span id="class"></span></p>
+      <p><strong>Level:</strong> <span id="level"></span></p>
+      <p><strong>XP:</strong> <span id="xp"></span></p>
+      <p><strong>Gold:</strong> <span id="gold"></span></p>
+      <p><strong>Hit Points:</strong> <span id="hit-points"></span> / <span id="max-hit-points"></span></p>
+      <div id="restoration-timer"></div>
+    </div>
+
+    <h3>Inventory</h3>
+    <ul id="inventory"></ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Text-Based Adventure Game. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+  <script src="character-sheet.js"></script>
+</body>
+</html>
